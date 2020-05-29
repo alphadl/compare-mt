@@ -466,7 +466,7 @@ def generate_ngram_report(ref, outs,
 
 def generate_sentence_examples(ref, outs, src=None,
                             score_type='sentbleu',
-                            report_length=10,
+                            report_length=50,
                             compare_directions='0-1',
                             title=None,
                             case_insensitive=False,
